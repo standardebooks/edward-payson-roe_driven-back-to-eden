@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/edward-payson-roe/driven-back-to-eden</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-10-14T20:28:30Z</dc:date>
+		<meta property="dcterms:modified">2025-10-14T20:28:30Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -17,7 +17,7 @@
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
-		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
 		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">displayTransformability</meta>
@@ -45,14 +45,15 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A family leaves their crowded New York City flat to find health, happiness, and wholesome work in the countryside.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;First serialized in the popular children’s magazine &lt;i&gt;St. Nicholas&lt;/i&gt;, &lt;i&gt;Driven Back to Eden&lt;/i&gt; is a classic of the 19th-century “back-to-the-land” genre. In his preface, author &lt;a href="https://standardebooks.org/ebooks/edward-payson-roe"&gt;Edward Payson Roe&lt;/a&gt; explains that he intended to write a realistic story that could serve as a practical and encouraging guide for families wishing to escape urban tenements for a healthier, more wholesome life in the country. For Robert Durham, a bookkeeper on a modest salary, life in a crowded New York City flat has become an unsolvable problem. He sees his wife growing nervous and weary, his frail daughter Mousie fading in the city air, and his other children being drawn into the street’s unhealthy influences. After one evening confirms his fears, he makes a momentous decision: the family must abandon the city and learn to make their living from the soil, despite their inexperience.&lt;/p&gt;
+			&lt;p&gt;First serialized in the popular children’s magazine &lt;i&gt;St. Nicholas&lt;/i&gt;, &lt;i&gt;Driven Back to Eden&lt;/i&gt; is a classic of the 19th-century “back-to-the-land” genre. In the preface, author &lt;a href="https://standardebooks.org/ebooks/edward-payson-roe"&gt;Edward Payson Roe&lt;/a&gt; explains that he intended to write a realistic story that could serve as a practical and encouraging guide for families wishing to escape urban tenements for a healthier, more wholesome life in the country.&lt;/p&gt;
+			&lt;p&gt;For Robert Durham, a bookkeeper earning a modest salary, life in his crowded New York City flat has become an unsolvable problem. He sees his wife growing nervous and weary, his frail daughter Mousie fading in the city air, and his other children being drawn into the street’s unhealthy influences. After the events of a particular evening confirm his fears, he makes a momentous decision: the family must abandon the city and learn to make their living from the soil, despite their inexperience.&lt;/p&gt;
 			&lt;p&gt;The novel blends a heartwarming family adventure with detailed instructions on the challenges and rewards of small-scale farming, from planting the first crops to managing difficult neighbors.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5269</dc:source>
 		<dc:source>https://archive.org/details/drivenbacktoeden00roee</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">66785</meta>
+		<meta property="se:reading-ease.flesch">77.77</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-payson-roe_driven-back-to-eden</meta>
 		<dc:creator id="author">Edward Payson Roe</dc:creator>
 		<meta property="file-as" refines="#author">Roe, Edward Payson</meta>
@@ -81,8 +82,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-		<meta property="schema:accessMode">visual</meta>
-		<meta property="schema:accessibilityFeature">alternativeText</meta>
+		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
