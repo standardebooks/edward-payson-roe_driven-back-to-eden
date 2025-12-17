@@ -52,7 +52,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5269</dc:source>
 		<dc:source>https://archive.org/details/drivenbacktoeden00roee</dc:source>
-		<meta property="se:word-count">66785</meta>
+		<meta property="se:word-count">66784</meta>
 		<meta property="se:reading-ease.flesch">77.77</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edward-payson-roe_driven-back-to-eden</meta>
 		<dc:creator id="author">Edward Payson Roe</dc:creator>
